@@ -1,0 +1,73 @@
+Sprint Planning Meeting – Team Alpha
+Date: Monday, Week 22
+
+[Sarah, John, Mark, Priya in attendance]
+
+Sarah: Good morning everyone. Let's get started with our sprint planning. 
+We have a lot to cover today, so let's be efficient.
+
+John: Sure. First, I want to mention that the login bug we found last Friday 
+is still open. It's blocking the QA team. Mark, can you take that one?
+
+Mark: Yes, absolutely. I'll fix the login bug by Wednesday. It's high priority 
+so I'll start today.
+
+Sarah: Great. Now, the API documentation is overdue. Priya, can you write the 
+API documentation and have it ready by end of week?
+
+Priya: I can do that. I'll have the API documentation done by Friday.
+
+John: I need to schedule the demo meeting with the client. I'll do that by 
+tomorrow, Tuesday. Also, I should mention that the database migration needs 
+to happen before the release. That's critical.
+
+Sarah: Right, the database migration is urgent. Who can handle that?
+
+Mark: I can assist with the database migration but I'll need John's help. 
+We should complete it by next Thursday at the latest.
+
+John: Agreed. Mark and I will take care of the database migration by next Thursday.
+
+Priya: Should we also update the staging environment? It hasn't been updated 
+in two weeks.
+
+Sarah: Yes, please. Priya, can you update the staging environment this week? 
+Let's say by Thursday.
+
+Priya: Sure, I'll update the staging environment by Thursday.
+
+Sarah: Also, we need someone to review the new feature PRs. There are about 
+five pull requests waiting.
+
+John: I'll review the pull requests. I can do that by Wednesday.
+
+Mark: One more thing – the unit test coverage is below 60%. We should really 
+improve the test coverage before the release.
+
+Sarah: Good point. Mark, can you work on improving the test coverage? 
+Aim for 80% coverage by end of sprint, which is two weeks from now.
+
+Mark: Will do. I'll improve test coverage to 80% by end of sprint.
+
+Sarah: Great. Let me summarise the action items:
+- Mark: fix login bug (high priority, by Wednesday)
+- Priya: write API documentation (by Friday)  
+- John: schedule client demo (by Tuesday)
+- Mark and John: complete database migration (high priority, by next Thursday)
+- Priya: update staging environment (by Thursday)
+- John: review pull requests (by Wednesday)
+- Mark: improve test coverage to 80% (by end of sprint)
+
+Sarah: Anything else before we wrap up?
+
+John: I think we should also look into the performance issue on the dashboard page. 
+It's loading slowly. Maybe that can be a nice-to-have for this sprint.
+
+Sarah: Let's add that as low priority. John, please investigate the dashboard 
+performance issue when you have time.
+
+John: Noted. I'll look into the dashboard performance issue as low priority.
+
+Sarah: Perfect. Thanks everyone. Let's have a great sprint!
+
+[Meeting ended at 9:45 AM]

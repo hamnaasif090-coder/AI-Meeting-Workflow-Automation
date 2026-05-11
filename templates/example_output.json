@@ -1,0 +1,74 @@
+{
+  "meeting_title": "Sprint Planning – Team Alpha",
+  "generated_at": "2024-06-10 09:52",
+  "summary": "The team held sprint planning where several critical tasks were assigned. A login bug blocking QA was identified as high priority. Database migration and API documentation were flagged as urgent before the release deadline.",
+  "tasks": [
+    {
+      "task": "Fix the login bug that is blocking the QA team",
+      "owner": "Mark",
+      "priority": "High",
+      "due_date": "by Wednesday",
+      "status": "Pending"
+    },
+    {
+      "task": "Write the API documentation",
+      "owner": "Priya",
+      "priority": "Medium",
+      "due_date": "by Friday",
+      "status": "Pending"
+    },
+    {
+      "task": "Schedule the demo meeting with the client",
+      "owner": "John",
+      "priority": "Medium",
+      "due_date": "by Tuesday",
+      "status": "Pending"
+    },
+    {
+      "task": "Complete database migration before release",
+      "owner": "Mark",
+      "priority": "High",
+      "due_date": "by next Thursday",
+      "status": "Pending"
+    },
+    {
+      "task": "Update the staging environment",
+      "owner": "Priya",
+      "priority": "Medium",
+      "due_date": "by Thursday",
+      "status": "Pending"
+    },
+    {
+      "task": "Review the five open pull requests",
+      "owner": "John",
+      "priority": "Medium",
+      "due_date": "by Wednesday",
+      "status": "Pending"
+    },
+    {
+      "task": "Improve test coverage from 60% to 80%",
+      "owner": "Mark",
+      "priority": "Medium",
+      "due_date": "by end of sprint",
+      "status": "Pending"
+    },
+    {
+      "task": "Investigate dashboard page performance issue",
+      "owner": "John",
+      "priority": "Low",
+      "due_date": "when possible",
+      "status": "Pending"
+    }
+  ],
+  "action_items": [
+    "[Mark] Fix the login bug that is blocking the QA team – by Wednesday",
+    "[Priya] Write the API documentation – by Friday",
+    "[John] Schedule the client demo meeting – by Tuesday",
+    "[Mark/John] Complete database migration – by next Thursday",
+    "[Priya] Update staging environment – by Thursday",
+    "[John] Review open pull requests – by Wednesday",
+    "[Mark] Improve test coverage to 80% – by end of sprint",
+    "[John] Investigate dashboard performance – low priority"
+  ],
+  "transcript_snippet": "Sprint Planning Meeting – Team Alpha\nDate: Monday, Week 22\n[Sarah, John, Mark, Priya in attendance]..."
+}
