@@ -40,25 +40,25 @@ Dashboard → Meeting history and stats
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    STREAMLIT FRONTEND                    │
+│                    STREAMLIT FRONTEND                   │
 │         (Upload → View Results → Download)              │
 └────────────────────┬────────────────────────────────────┘
                      │  HTTP (REST API)
 ┌────────────────────▼────────────────────────────────────┐
-│                   FASTAPI BACKEND                        │
-│  /upload-audio  /submit-transcript  /download  /meetings │
-└──────┬──────────────┬──────────────────────┬────────────┘
-       │              │                      │
-┌──────▼──────┐ ┌─────▼──────┐  ┌──────────▼──────────┐
+│                   FASTAPI BACKEND                       │
+│  /upload-audio  /submit-transcript  /download  /meetings│
+└──────┬──────────────┬─────────────────────┬─────────────┘
+       │              │                     │
+┌──────▼──────┐ ┌─────▼──────┐  ┌───────────▼─────────┐
 │  WHISPER    │ │   TASK     │  │   REPORT GENERATOR  │
 │ TRANSCRIBE  │ │ EXTRACTOR  │  │  (MD / JSON / TXT)  │
 │  (CPU only) │ │(regex/LLM) │  └──────────┬──────────┘
 └─────────────┘ └─────┬──────┘             │
                       │                    │
               ┌───────▼────────────────────▼──────────┐
-              │           SQLITE DATABASE              │
-              │        + LOCAL FILE STORAGE            │
-              └────────────────────────────────────────┘
+              │           SQLITE DATABASE             │
+              │        + LOCAL FILE STORAGE           │
+              └───────────────────────────────────────┘
 ```
 
 ---
@@ -109,7 +109,7 @@ meeting_tasks/
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/meeting-to-task.git
+git clone https://github.com/hamnaasif090-coder/meeting-to-task.git
 cd meeting-to-task
 
 # Create virtual environment (strongly recommended)
@@ -332,19 +332,6 @@ This project covers:
 - **Ollama** – [ollama.ai/docs](https://ollama.ai/docs)
 - **SQLite** – [sqlite.org/docs](https://sqlite.org/docs.html)
 
----
-
-## 🗓️ 5-Day Build Plan (For Students)
-
-| Day | Tasks |
-|-----|-------|
-| **Day 1** | Set up environment, install dependencies, test FastAPI + Streamlit |
-| **Day 2** | Build `database.py` and `models.py`, test SQLite CRUD |
-| **Day 3** | Build `task_extractor.py` with regex, test with example transcript |
-| **Day 4** | Build `report_generator.py`, integrate all backend endpoints |
-| **Day 5** | Build Streamlit UI, connect to backend, test end-to-end |
-| **Day 6** | Add Whisper transcription, test with audio file |
-| **Day 7** | Deploy to Streamlit Cloud + Railway, write documentation |
 
 ---
 
@@ -364,4 +351,4 @@ MIT License — free to use, modify, and distribute.
 
 ---
 
-*Built with ❤️ for university students — zero cost, maximum learning.*
+
